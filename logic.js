@@ -9,6 +9,6 @@ function sendEmail()
         Subject : "TestMail",
         Body : "tested ",
     }).then(
-		message => alert("Mail Sent Successfully")
+		message => alert(message)
 	);
 }

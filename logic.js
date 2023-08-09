@@ -2,10 +2,10 @@ function sendEmail()
 {
     Email.send({
         Host: "smtp.gmail.com",
-        Username : "sanjay.g@forgeforward.in",
-        Password : "Forge@123",
+        Username : "lycheeprojects.in@gmail.com",
+        Password : "Lycheeprojects.1@",
         To : 'sanjayr112018@gmail.com',
-        From : "sanjay.g@forgeforward.in",
+        From : "lycheeprojects.in@gmail.com",
         Subject : "TestMail",
         Body : "tested ",
     }).then(

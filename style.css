@@ -1,0 +1,99 @@
+@font-face
+{
+  font-family: Josefin Sans;
+  src: url(fonts/JosefinSans-VariableFont_wght.ttf);
+}
+
+.body
+{
+    /* background-color: rgba(247, 238, 227, 0.884);  */
+    display: flex;
+    background-color: rgba(250, 249, 207, 0.178);
+    /* TODO : orange gradient as a backround */
+   
+}
+.logo
+{
+    width: 180px;
+    height: 80px;
+    padding-left: 30px;
+    margin-top: 20px;
+}
+
+.oneText
+{
+    margin-top:150px;
+    font-size: 70px;
+    height: 0;
+    font-family: Josefin Sans;
+    letter-spacing: 0.3em;
+    font-weight: 600;
+}
+ .twoText
+ {
+    font-size: 70px;
+    height: 0;
+    width: 20px;
+    font-family: Josefin Sans;
+    letter-spacing: 0.3em;
+    font-weight: 600;
+ }
+ .aboveMail
+ {
+    margin-top: 170px;
+    font-size: 24px;
+    font-family: Josefin Sans;
+    width: 650px;
+    font-weight: 400;
+    color:hsl(221, 83%, 23%);;
+ }
+ 
+ form.mailSection input[type = "text"]
+{
+  float: left;
+  width: 50%;
+  padding: 20px;
+  border-radius: 20px;
+  border-color: hsl(221, 66%, 40%);
+  border-style: solid;
+  outline: none;
+  border-width:0.14em;
+  background-color: rgba(253, 253, 238, 0.178);
+}
+form.mailSection button
+{
+    width: 90px;
+    float: left;
+    padding: 20px;
+    border-radius: 25px;
+    margin-left: -50px;
+    border-color:  hsl(221, 66%, 40%) ;
+    border-style: solid;
+    background-color: rgb(10, 50, 85);
+    outline: none;
+    border-width:0.14em;
+    border-left: 0;
+    border-right: 0;
+}
+
+.imageSide
+{
+    margin-top: 10%;
+    width: 700px;
+    opacity: 90%;
+}
+.mainView
+{
+ margin-left: 160px;
+}
+
+
+ 
+
+
+
+
+/* used Resources 
+1) https://www.w3schools.com/howto/howto_css_search_button.asp
+2) https://fontawesome.com/docs/web/style/size
+*/

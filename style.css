@@ -9,6 +9,7 @@
     /* background-color: rgba(247, 238, 227, 0.884);  */
     display: flex;
     background-color: rgba(250, 249, 207, 0.178);
+    align-items: center;
 
     /* TODO : orange gradient as a backround */
    
@@ -17,13 +18,12 @@
 {
     width: 180px;
     height: 80px;
-    padding-left: 30px;
     margin-top: 20px;
 }
 
 .oneText
 {
-    margin-top:150px;
+    margin-top:80px;
     font-size: 70px;
     height: 0;
     font-family: Josefin Sans;
@@ -80,12 +80,10 @@ form.mailSection button
 
 .imageSide
 {
-    align-content: center;
+    
     width:100%;
     height: auto;
     opacity: 90%;
-    float: right;
-    resize: both;
 }
 .mainView
 {

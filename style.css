@@ -81,7 +81,7 @@ form.mailSection button
 .imageSide
 {
     
-    width:300;
+    width:100%;
     height: auto;
     opacity: 90%;
 }

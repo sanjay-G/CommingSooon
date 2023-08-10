@@ -80,6 +80,7 @@ form.mailSection button
 {
     margin-top: 10%;
     width: 700px;
+    height: auto;
     opacity: 90%;
 }
 .mainView
